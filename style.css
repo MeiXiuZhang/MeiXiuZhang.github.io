@@ -18,12 +18,12 @@ body{
 	background-color: rgba(183, 200, 239, 0.5);
 	/* 0.5 means changing the color or reducing it by 50%*/
 }
-a {
+/*a {
 	color: green;
 	text-align: center;
 	display: block;
 	margin: 0 auto;
-}
+}*/
 .bio{
 	color:blue;
 }
