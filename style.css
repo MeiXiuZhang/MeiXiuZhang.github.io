@@ -32,6 +32,9 @@ nav li a{
 	font-size: 1.1em;
 }
 
+nav li:hover{
+	text-decoration: underline;
+}
 
 body{
 	background-color: rgba(183, 200, 239, 0.5);
