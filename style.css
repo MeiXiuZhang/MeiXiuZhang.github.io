@@ -1,8 +1,49 @@
-h1{
-	font-size: 30px;
-	text-align: center;
-	border: 8px solid white;
+header{
+	background: url("http://www.publicdomainpictures.net/pictures/120000/velka/watercolor-bokeh-pastel-background.jpg");;
+	height: 75px;
+	width: 100%;
+	position: fixed;
+	border-bottom: 5px solid #fff;
 }
+
+ul{
+	font-family: 'Cormorant Upright', serif;
+	display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+	padding: 20px;
+    display: block;
+    width: 60px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+nav{
+	float: left;
+	padding: 20px;
+}
+
+h1{
+	font-size: 3.6em;
+	text-align: left;
+	font-family: 'Great Vibes', cursive;
+	color: #fca9d9;
+	margin-top: 4px;
+}
+
 h3{
 	text-align: center;
 }
@@ -13,27 +54,7 @@ p {
 	line-height: 1.61em;
 	padding-left: 100px;
 	padding-right: 100px;
-}
-
-nav{
-	background-color: #42e5f4;
 	text-align: center;
-	padding: 8px;
-}
-nav li{
-	display: inline-block;
-	margin: 5px 10px;
-	padding-top: 3px;
-}
-nav li a{
-	color: white;
-	text-decoration: none;
-	font-family: 'Lovers Quarrel', cursive;
-	font-size: 2.4em;
-}
-
-nav li:hover{
-	text-decoration: underline;
 }
 
 body{
@@ -41,101 +62,5 @@ body{
 	/* 0.5 means changing the color or reducing it by 50%*/
 }
 
-.bio{
-	color:blue;
-}
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80;
-}
-.container{
-	margin: 0 auto;
-	max-width: 50%;
-	padding: 30px;
-	border: 3px solid #FE5391;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li a {
-    display: block;
-    width: 60px;
-}
 
-/**{
-	margin: 0;
-	height: 100%;
-}
-body{
-	width: 100%;
-}
-.img-container{
-	background-image: url(https://www.facebook.com/profile.php?id=100000989344930);
-	height:70%;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: relative;
-}
-.inner-container{
-	text-align: center;
-	position: absolute;
-	width: 100%;
-	color: white;
-	height: auto;
-	margin-top: 200px;
-}
-h1{
-	font-size: 7em;
-	font-family: 'Great Vibes', cursive;
-}
-h2{
-	margin-top: -16px;
-	font-family: 'Tangerine', cursive;
-	font-size: 1.8em;
-	text-align: center;
-	font-weight: 350;
-}
-a{
-	margin-top: 20px;
-	font-size: 1.4em;
-	font-family: 'Times New Roman';
-}
-.button{
-	display: inline block;
-	font-weight: bold;
-	width: 200px;
-	padding: 10px;
-	border: 4px solid #fff;
-	color: #fff;
-	text-align: center;
-	outline: none;
-	transition: background-color: 0.15s ease-out,
-	color 0.15s ease-out;
-}
-.button: hover, .button: active{
-	background-color: #fff;
-	color: #000;
-	transition: background-color 0.2s ease-in,
-	color 0.2s ease-in;
-}
 
-@media only screen and (max-width: 920px){
-	.inner-container{
-		margin-top: 100px;
-	}
-}
-@media only screen and (max-width: 540px){
-	.inner-container{
-		margin-top: 150px;
-	}
-	h1{
-		font-size: 4em;
-	}
-	h2{
-		font-size: 1.3em;
-	}
-}
