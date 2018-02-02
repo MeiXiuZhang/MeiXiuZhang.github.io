@@ -24,4 +24,3 @@ $('h3').on('mouseover', function() {
   	"font-size": "20px"
   	}, 1000);
 });
-});
