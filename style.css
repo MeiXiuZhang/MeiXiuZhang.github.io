@@ -92,24 +92,24 @@ header{
 }
 
 @media (max-width: 9000px) {
-    #rig li {
+    #grid li {
         width:25%;
     }
 }
 
 @media (max-width: 700px) {
-    #rig li {
+    #grid li {
         width:33.33%;
     }
 }
 
 @media (max-width: 550px) {
-    #rig li {
+    #grid li {
         width:50%;
     }
 }
 
-ul{
+#fixed_menu{
 	font-family: 'Cormorant Upright', serif;
 	display: inline-block;
     list-style-type: none;
@@ -117,11 +117,11 @@ ul{
     padding: 0;
 }
 
-li{
+/*li{
 	padding: 20px;
     display: block;
     width: 60px;
-}
+}*/
 
 a{
 	color: #fff;
