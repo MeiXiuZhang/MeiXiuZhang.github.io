@@ -9,7 +9,7 @@ body{
 
 .cover-photo{
 	background-image: url("https://img00.deviantart.net/ab5d/i/2013/177/0/1/pastel_galaxy_by_thelittlecuteartist-d6aqlik.jpg");
-	height: 85%;
+	height: 95%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -23,7 +23,7 @@ body{
 	width: 100%;
 	color: white;
 	height: auto;
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
 h1{
@@ -73,7 +73,7 @@ p{
 	font-family: 'Courgette', cursive;
 
 }
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 1080px){
 	.inner-container{
 		margin-top: 100px;
 	}
