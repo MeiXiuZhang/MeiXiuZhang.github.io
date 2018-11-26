@@ -9,7 +9,7 @@ body{
 
 .cover-photo{
 	background-image: url("https://img00.deviantart.net/ab5d/i/2013/177/0/1/pastel_galaxy_by_thelittlecuteartist-d6aqlik.jpg");
-	height: 95%;
+	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -44,16 +44,16 @@ h2{
 
 a{
 	margin-top: -20px;
-	font-size: 2.5em;
+	font-size: 2.6em;
 	font-family: 'Great Vibes', cursive;
 }
 
 .btn{
 	display: inline-block;
-	width: 100px;
-	margin-top: 70px;
+	width: 90px;
+	margin-top: 80px;
 	font-weight: bold;
-	padding: 40px;
+	padding: 36px;
 	color: #fca9d9;
 	border: 4px solid #fff;
 	text-align: center;
