@@ -6,7 +6,7 @@ header{
 	border-bottom: 5px solid #fff;
 }
 #grid {
-    max-width:900px;
+    max-width:1080px;
     margin:0 auto; /*center aligned*/
     padding:0;
     font-size:0; /* Remember to change it back to normal font size if have captions */
@@ -16,7 +16,7 @@ header{
 #grid li {
     display: inline-block;
     *display:inline;/*for IE6 - IE7*/
-    width:25%;
+    width:30%;
     vertical-align:middle;
     box-sizing:border-box;
     margin:0;
@@ -25,7 +25,7 @@ header{
         
 /* The wrapper for each item */
 .grid-cell {
-    margin:12px;
+    margin:10px;
     box-shadow:0 0 6px rgba(37, 252, 216);
     display:block;
     position: relative;
@@ -43,7 +43,7 @@ header{
 }
 
 #grid li:hover .grid-img {
-    transform:scale(2.10);
+    transform:scale(1.05);
 }
         
 /* If have the overlay layer */
@@ -113,7 +113,7 @@ header{
 	font-family: 'Cormorant Upright', serif;
 	display: inline-block;
     list-style-type: none;
-    margin-left: 20;
+    margin-left: 10;
     padding: 0;
 }
 
