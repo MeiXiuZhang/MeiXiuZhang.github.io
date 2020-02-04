@@ -8,7 +8,7 @@ body{
 }
 
 .cover-photo{
-	background-image: url("https://img00.deviantart.net/ab5d/i/2013/177/0/1/pastel_galaxy_by_thelittlecuteartist-d6aqlik.jpg");
+	background-image: url("https://i.pinimg.com/originals/6a/5f/e7/6a5fe719469ae7c3bbe460a356e1f327.jpg");
 	height: 90%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -51,10 +51,10 @@ a{
 
 .btn{
 	display: inline-block;
-	width: 120px;
-	margin-top: 80px;
+	width: 110px;
+	margin-top: 60px;
 	font-weight: bold;
-	padding: 50px;
+	padding: 30px;
 	color: #fca9d9;
 	border: 4px solid #fff;
 	text-align: center;
